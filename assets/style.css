@@ -1,0 +1,79 @@
+/* Neon Green and Black Theme */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #caff0f;
+}
+
+header.hero {
+  background-color: #111;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #7aff00;
+}
+
+.buttons .btn {
+  display: inline-block;
+  margin: 1rem 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #caff0f;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.buttons .btn:hover {
+  background-color: #9edb00;
+}
+
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+  border-top: 1px solid #2a2a2a;
+}
+
+.store-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.item {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 0 10px #caff0f50;
+}
+
+.item h3 {
+  color: #caff0f;
+}
+
+footer {
+  background-color: #0d0d0d;
+  color: #666;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
